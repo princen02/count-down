@@ -120,7 +120,4 @@ if (process.env.NODE_ENV !== 'production') {
 
   setInterval(countdown, 1000);
 
-  // app.use(require("./script"));
-
-
   app.listen(3000)
