@@ -9,12 +9,7 @@ if (process.env.NODE_ENV !== 'production') {
   const flash = require('express-flash')
   const session = require('express-session')
   const methodOverride = require('method-override')
-  const daysEl = document.getElementById('days');
-  const hoursEl = document.getElementById('hours');
-  const minsEl = document.getElementById('mins');
-  const secondsEl = document.getElementById('seconds');
-
-  const newYears = '1 Jan 2023';
+  
   
   const initializePassport = require('./passport-config')
   initializePassport(
